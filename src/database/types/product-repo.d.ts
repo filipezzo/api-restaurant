@@ -12,3 +12,10 @@ type TableRepo = {
   created_at: number;
   updated_at: number;
 };
+
+type TableSessionRepo = {
+  id: number;
+  table_id: number;
+  opened_at: number;
+  closed_at: number;
+};
